@@ -4,8 +4,6 @@ Fermor is a modern personal finance web application built to bring clarity to pe
 
 ## Preview
 
-![Fermor Homepage](./screenshots/homepage.png)
-
 **Live Demo:** [Add deployed URL here]
 
 **GitHub:** [Add repository URL here]
@@ -61,35 +59,6 @@ The homepage was intentionally designed from the ground up, rather than followin
 - Recommended actions
 - Profile menu
 - Logout flow
-
-## Screenshots
-
-### 1. Homepage & Marketing Experience
-
-![Homepage](./screenshots/homepage.png)
-*The landing page hero section introduces the core "Understand. Act. Grow." product narrative. It establishes a premium, trustworthy fintech aesthetic with a clean, grid-based layout and generous whitespace.*
-
-![Product Showcase](./screenshots/product-showcase.png)
-*An interactive preview of the Fermor Financial Console right on the homepage. This allows visitors to immediately grasp the value proposition by seeing data visualizations before signing up.*
-
-### 2. Interactive Dashboard & Features
-
-![Dashboard Overview](./screenshots/dashboard.png)
-*The authenticated executive dashboard provides a personalized financial picture. It aggregates total net worth, liquid burn runway, and a proprietary financial health score into one unified view.*
-
-![Financial Insights](./screenshots/marketing-insights.png)
-*The Insights and Actions view demonstrates how Fermor transforms raw financial data into prioritized tasks. It continuously monitors accounts to identify "lazy cash" and redundant fees.*
-
-![Goals & Milestones](./screenshots/goal-simulator.png)
-*The milestone velocity engine tracks progress across various life objectives, such as an Emergency Fund or Home Down Payment. It dynamically projects runway buffers and compound wealth over time.*
-
-### 3. Demo Login & Mobile
-
-![Demo Login](./screenshots/demo-login.png)
-
-![Mobile Homepage](./screenshots/mobile-homepage.png)
-![Mobile Dashboard](./screenshots/mobile-dashboard.png)
-
 ## User Flow
 
 The platform guides users through a seamless end-to-end journey:
@@ -131,7 +100,6 @@ src/
 ├── App.tsx
 ├── index.css
 └── main.tsx
-screenshots/
 README.md
 package.json
 vite.config.ts
