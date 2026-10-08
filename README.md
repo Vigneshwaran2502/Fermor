@@ -4,9 +4,8 @@ Fermor is a modern personal finance web application built to bring clarity to pe
 
 ## Preview
 
-**Live Demo:** [Add deployed URL here]
-
-**GitHub:** [Add repository URL here]
+**Live Demo:** https://fermor-sigma.vercel.app/
+**GitHub:** https://github.com/Vigneshwaran2502/Fermor
 
 ## About the Project
 
