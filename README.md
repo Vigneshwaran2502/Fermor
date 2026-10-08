@@ -1,111 +1,157 @@
-# Fermor 📈
+# Fermor
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![React](https://img.shields.io/badge/react-v19.0.1-blue.svg)
-![TypeScript](https://img.shields.io/badge/typescript-v7.0.2-blue.svg)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-v4.3.3-blue.svg)
+Fermor is a modern personal finance web application built to bring clarity to personal wealth. It bridges the gap between passive transaction spreadsheets and cluttered budgeting apps by helping users understand where they stand, identify high-leverage financial actions, and grow their net worth over time.
 
-> A modern personal finance web application built to bring clarity to personal wealth. 
+## Preview
 
-Fermor bridges the gap between passive transaction spreadsheets and cluttered budgeting apps by helping users understand where they stand, identify high-leverage financial actions, and grow their net worth over time.
+![Fermor Homepage](./screenshots/homepage.png)
 
-## 📑 Table of Contents
+**Live Demo:** [Add deployed URL here]
 
-- [Overview](#-overview)
-- [Design Direction](#-design-direction)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Demo Access](#-demo-access)
-- [Deployment](#-deployment)
-- [License](#-license)
+**GitHub:** [Add repository URL here]
 
-## 📖 Overview
+## About the Project
 
-Fermor is designed to be your personal wealth companion. It helps you aggregate your financial data, understand your cash flow, and take actionable steps towards growing your net worth.
+This project is a new homepage and product experience concept for Fermor, a fintech platform focused on helping users understand their finances, take meaningful actions, and grow financially. 
 
-## 🎨 Design Direction
+The core product narrative is designed to guide users sequentially:
+**Understand → Act → Grow**
 
-The experience is structured around a deliberate product narrative:
+## Design Direction
 
-$$\textbf{UNDERSTAND} \quad\longrightarrow\quad \textbf{ACT} \quad\longrightarrow\quad \textbf{GROW}$$
+The homepage was intentionally designed from the ground up, rather than following a fixed template, to establish a unique and compelling brand identity. Key design decisions include:
 
-1. **Understand**: Aggregates balances, normalizes expenses across accounts, and provides an unencumbered view of liquid cash runway without manual spreadsheet maintenance.
-2. **Act**: Synthesizes raw data into prioritized, actionable moves—such as eliminating cash drag on idle checking balances, stopping unused subscription leaks, and sweeping surpluses into yield-bearing accounts.
-3. **Grow**: Visualizes compounding momentum, showing how small monthly habit improvements accelerate major financial milestones.
+- Premium fintech visual language
+- Calm and trustworthy aesthetic
+- Strong typography for numerical clarity
+- Generous whitespace to reduce cognitive load
+- Purposeful financial data visualization
+- Warm neutral background
+- Deep ink/green palette representing growth and stability
+- Clear information hierarchy
+- Subtle, accessible motion
+- Responsive-first thinking
 
-This structure was chosen to guide users from financial uncertainty into actionable clarity and long-term confidence.
+## Key Features
 
-## ✨ Features
+### Marketing Experience
 
-- **Responsive Homepage**: Polished, editorial layout optimized for mobile (375px+), tablet, and desktop viewports with zero horizontal scrolling.
-- **Interactive Dashboard Preview**: Working SVG Bézier trajectory chart with timeframe toggles (`1M`, `6M`, `1Y`, `ALL`), interactive hover inspection crosshairs, and dynamic categorical expense breakdowns.
-- **Demo Authentication**: Client-side authentication flow preloaded with a realistic financial profile, seamless login modal, success notifications, and persistent session state.
-- **Protected Application Dashboard (`/dashboard`)**: Dedicated authenticated product interface featuring personalized net worth tracking, financial health diagnostics (86/100 *Strong*), actionable recommendations, upcoming milestone goals, and recent activity streams.
-- **Financial Insights**: Structured **DATA → INSIGHT → ACTION** cards demonstrating product thinking with working execution and archive states.
-- **Goal Simulator**: Dynamic milestone engine with interactive sliders for target amount, accumulated savings, monthly contributions, and an acceleration toggle modeling surplus optimization.
-- **Multi-Currency Switcher**: Real-time currency toggle (`₹ INR`, `$ USD`, `€ EUR`) that converts all financial figures consistently across the platform.
-- **Accessible & Subtle Motion**: Accessible focus indicators (`focus-visible`), Escape key and click-outside listeners, semantic markup, and `prefers-reduced-motion` compliance.
+- Responsive navigation
+- Hero experience
+- Understand → Act → Grow narrative
+- Product showcase
+- Financial insights
+- How it works
+- Why Fermor
+- Goal simulator
+- Final CTA
+- Responsive footer
 
-## 🛠 Tech Stack
+### Product Experience
 
-- **Frontend**: React 19 SPA with React Router (`react-router-dom`)
-- **Language**: Strict TypeScript for type definitions
-- **Styling**: Tailwind CSS v4 with custom typographic scales, hairline borders, and warm neutral surfaces
-- **Icons**: Lucide React for clean, semantic iconography
-- **Charts & Animations**: Pure SVG/CSS (High-precision Bézier curves and radial progress gauges) and Motion for animations.
-- **Build Tool**: Vite
+- Demo login
+- Persistent demo authentication
+- Protected dashboard route
+- Interactive net-worth chart
+- Timeframe selection
+- Financial health visualization
+- Financial insights
+- Goal progress
+- Currency switcher
+- Recommended actions
+- Profile menu
+- Logout flow
 
-## 🚀 Getting Started
+## Screenshots
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+### 1. Homepage & Marketing Experience
 
-### Prerequisites
+![Homepage](./screenshots/homepage.png)
+*The landing page hero section introduces the core "Understand. Act. Grow." product narrative. It establishes a premium, trustworthy fintech aesthetic with a clean, grid-based layout and generous whitespace.*
 
-Ensure you have Node.js and npm installed on your local machine.
+![Product Showcase](./screenshots/product-showcase.png)
+*An interactive preview of the Fermor Financial Console right on the homepage. This allows visitors to immediately grasp the value proposition by seeing data visualizations before signing up.*
+
+### 2. Interactive Dashboard & Features
+
+![Dashboard Overview](./screenshots/dashboard.png)
+*The authenticated executive dashboard provides a personalized financial picture. It aggregates total net worth, liquid burn runway, and a proprietary financial health score into one unified view.*
+
+![Financial Insights](./screenshots/marketing-insights.png)
+*The Insights and Actions view demonstrates how Fermor transforms raw financial data into prioritized tasks. It continuously monitors accounts to identify "lazy cash" and redundant fees.*
+
+![Goals & Milestones](./screenshots/goal-simulator.png)
+*The milestone velocity engine tracks progress across various life objectives, such as an Emergency Fund or Home Down Payment. It dynamically projects runway buffers and compound wealth over time.*
+
+### 3. Demo Login & Mobile
+
+![Demo Login](./screenshots/demo-login.png)
+
+![Mobile Homepage](./screenshots/mobile-homepage.png)
+![Mobile Dashboard](./screenshots/mobile-dashboard.png)
+
+## User Flow
+
+The platform guides users through a seamless end-to-end journey:
+
+Visitor
+↓
+Homepage
+↓
+Demo Login
+↓
+Demo Profile Activated
+↓
+Dashboard
+↓
+Explore financial insights/goals
+↓
+Logout
+↓
+Homepage
+
+## Tech Stack
+
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- Motion
+- Lucide React
+
+## Project Structure
+
+```
+src/
+├── components/
+├── context/
+├── lib/
+├── pages/
+├── types/
+├── App.tsx
+├── index.css
+└── main.tsx
+screenshots/
+README.md
+package.json
+vite.config.ts
+```
+
+## Getting Started
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Vigneshwaran2502/Fermor.git
-   ```
-
-2. **Navigate to the project directory:**
-   ```bash
-   cd Fermor
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-4. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-   The application will be running on `http://localhost:3000`.
-
-## 🔒 Demo Access
-
-- **Profile**: Rohan K. — Engineer
-- **Status**: Authenticated demo session with preloaded financial metrics (Net Worth: ₹12,48,000, 86/100 Financial Health Score).
-- **Disclaimer**: All figures and projections are demonstration data illustrative of Fermor's user experience and algorithmic modeling.
-
-## 📦 Deployment
-
-The application is configured as a standalone single-page application ready for deployment to any modern hosting platform (such as Vercel, Netlify, or Cloud Run) using the standard build command:
-
+1. Install dependencies:
 ```bash
-# Compile and build production bundle
-npm run build
-
-# Preview production build locally
-npm run preview
+npm install
 ```
-The compiled assets will be available in the `dist` directory.
 
-## 📄 License
+2. Start the development server:
+```bash
+npm run dev
+```
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+3. Build for production:
+```bash
+npm run build
+```
