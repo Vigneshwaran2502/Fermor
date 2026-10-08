@@ -1,0 +1,6 @@
+{
+  "name": "Fermor - Personal Finance Clarity & Growth",
+  "description": "Fermor brings clarity to personal finance. Understand your money, take decisive financial actions, and grow your net worth with intelligent insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
